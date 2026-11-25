@@ -24,6 +24,8 @@ function charCount(value: string): number {
   return [...value].length;
 }
 
+// The em dash joins the boast to its twist without adding a line break.
+
 function problemsWithLength(): string[] {
   const found: string[] = [];
   const n = charCount(TEXT);
